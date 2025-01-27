@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import aiComputerSecurityProject from "@/public/aiComputerSecurityProject.png";
-import minerfitproject from "@/public/minerfit.png";
-import whip from "@/public/whip.png";
+import aiComputerSecurityProject from "@/resources/aiComputerSecurityProject.png";
+import minerfitproject from "@/resources/minerfit.png";
+import whip from "@/resources/whip.png";
 
 export const links = [
     {
