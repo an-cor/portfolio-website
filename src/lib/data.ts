@@ -2,6 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+//import { AiOutlineTrophy } from "react-icons/ai";
 import aiComputerSecurityProject from "@/resources/aiComputerSecurityProject.png";
 import minerfitproject from "@/resources/minerfit.png";
 import whip from "@/resources/whip.png";
@@ -35,44 +36,12 @@ export const links = [
 
 export const experiencesData = [
     {
-        title: "Research Assistant - The University of Texas at El Paso",
+        title: "Graduated Masters in Software Engineering - The University of Texas at El Paso",
         location: "El Paso, TX",
         description:
-            "I gained over two years of research experience as an undergraduate research assistant, where I explored artificial intelligence and machine learning models, contributing to graduate-led projects and delving into deep learning algorithms.",
-        icon: React.createElement(FaReact),
-        date: "2021 - 2023",
-    },
-    {
-        title: "Promgramming Intern - Air Force Research Lab",
-        location: "Rome, NY",
-        description:
-            "My first internship in tech. I developed an inventory system for a warfare simulations game in Unity using C#.",
-        icon: React.createElement(CgWorkAlt),
-        date: "2022",
-    },
-    {
-        title: "Software Engineer Intern - Northrop Grumman Corp.",
-        location: "Colorado Springs, CO",
-        description:
-            "I added features and debugged issues on a radar that overlooks the northern hemisphere relative to the USA. My features included front-end and back-end functionalities written in Java.",
-        icon: React.createElement(CgWorkAlt),
-        date: "2023",
-    },
-    {
-        title: "Graduated Bachelors in Computer Science w/ Minor in Mathematics",
-        location: "El Paso, TX",
-        description:
-            "I graduated with honors and multiple stoles from various organizations.",
+            "Finished multiple courses learning Machine Learning & Artificial Intelligence, Computer Security, Web Development and Project Management.",
         icon: React.createElement(LuGraduationCap),
-        date: "2023",
-    },
-    {
-        title: "Software Engineer Intern - Northrop Grumman Corp.",
-        location: "Colorado Springs, CO",
-        description:
-            "As a return intern in a different team, I built a Kubernetes-based full-stack application to manage and visualize logging information.",
-        icon: React.createElement(CgWorkAlt),
-        date: "2024",
+        date: "December 2024",
     },
     {
         title: "Teaching Assistant - The University of Texas at El Paso",
@@ -83,12 +52,60 @@ export const experiencesData = [
         date: "2023 - 2024",
     },
     {
-        title: "Graduated Masters in Software Engineering",
+        title: "Software Engineer Intern - Northrop Grumman Corp.",
+        location: "Colorado Springs, CO",
+        description:
+            "As a return intern in a different team, I built a Kubernetes-based full-stack application to manage and visualize logging information.",
+        icon: React.createElement(CgWorkAlt),
+        date: "Summer 2024",
+    },
+    {
+        title: "Graduated Bachelors in Computer Science w/ Minor in Mathematics - The University of Texas at El Paso",
         location: "El Paso, TX",
         description:
-            "Finished multiple courses learning Machine Learning & Artificial Intelligence, Computer Security, Web Development and Project Management",
+            "I graduated with honors and multiple stoles from various organizations.",
         icon: React.createElement(LuGraduationCap),
-        date: "2024",
+        date: "December 2023",
+    },
+    {
+        title: "Software Engineer Intern - Northrop Grumman Corp.",
+        location: "Colorado Springs, CO",
+        description:
+            "I added features and debugged issues on a radar that overlooks the northern hemisphere relative to the USA. My features included front-end and back-end functionalities written in Java.",
+        icon: React.createElement(CgWorkAlt),
+        date: "Summer 2023",
+    },
+    {
+        title: "\"Code Sensei\" Learning Facilitator - Code Ninjas: Coding for kids",
+        location: "El Paso, TX",
+        description:
+            "Work with a range of 7 to 20 students 5-14-year-old children on a day-to-day to build games with code and play once the games are built. I facilitated the learning of CS fundamentals in multiple coding languages (Javascript, C#) with kids to build game functionalities and interfaces.",
+        icon: React.createElement(FaReact),
+        date: "2021 - 2023",
+    },
+    {
+        title: "Promgramming Intern - Air Force Research Lab",
+        location: "Rome, NY",
+        description:
+            "My first internship in tech. I developed an inventory system for a warfare simulations game in Unity using C#.",
+        icon: React.createElement(CgWorkAlt),
+        date: "Summer 2022",
+    },
+    {
+        title: "Web Developer - The University of Texas at El Paso",
+        location: "El Paso, TX",
+        description:
+            "I was tasked with building, developing and designing a static website for faculty members in the computer science department at UTEP as part of a (NSF) research program. Hosted on the university's servers, the website had constant updates with related content, useful capabilities, and up-to-date links to outside sources.",
+        icon: React.createElement(FaReact),
+        date: "2022 - 2023",
+    },
+    {
+        title: "Research Assistant - The University of Texas at El Paso",
+        location: "El Paso, TX",
+        description:
+            "I gained over two years of research experience as an undergraduate research assistant, where I explored artificial intelligence and machine learning models, contributing to graduate-led projects and delving into deep learning algorithms.",
+        icon: React.createElement(FaReact),
+        date: "2021 - 2023",
     },
 ] as const;
 
