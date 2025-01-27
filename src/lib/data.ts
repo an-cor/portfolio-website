@@ -96,7 +96,7 @@ export const experiencesData = [
         location: "El Paso, TX",
         description:
             "I was tasked with building, developing and designing a static website for faculty members in the computer science department at UTEP as part of a (NSF) research program. Hosted on the university's servers, the website had constant updates with related content, useful capabilities, and up-to-date links to outside sources.",
-        icon: React.createElement(FaReact),
+        icon: React.createElement(CgWorkAlt),
         date: "2022 - 2023",
     },
     {
