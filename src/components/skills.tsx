@@ -2,7 +2,7 @@
 
 import React from "react";
 import SectionHeading from "./section-heading";
-import { skillsData } from "@/lib/data";
+import { languagesData, skillsData, toolsData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
 
@@ -29,9 +29,50 @@ export default function Skills() {
             ref={ref}
             className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
         >
-            <SectionHeading>My skills</SectionHeading>
+
+            <SectionHeading>Progamming Languages & Frameworks</SectionHeading>
+            <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
+                {languagesData.map((skill, index) => (
+                    <motion.li
+                        className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+                        key={index}
+                        variants={fadeInAnimationVariants}
+                        initial="initial"
+                        whileInView="animate"
+                        viewport={{
+                            once: true,
+                        }}
+                        custom={index}
+                    >
+                        {skill}
+                    </motion.li>
+                ))}
+            </ul>
+            <div className="mt-12">
+                <SectionHeading>Dev Tools & Platforms</SectionHeading>
+            </div>
             <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
                 {skillsData.map((skill, index) => (
+                    <motion.li
+                        className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+                        key={index}
+                        variants={fadeInAnimationVariants}
+                        initial="initial"
+                        whileInView="animate"
+                        viewport={{
+                            once: true,
+                        }}
+                        custom={index}
+                    >
+                        {skill}
+                    </motion.li>
+                ))}
+            </ul>
+            <div className="mt-12">
+                <SectionHeading>Technologies & Fields</SectionHeading>
+            </div>
+            <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
+                {toolsData.map((skill, index) => (
                     <motion.li
                         className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
                         key={index}

@@ -133,7 +133,7 @@ export const projectsData = [
     },
 ] as const;
 
-export const skillsData = [
+export const languagesData = [
     "Python",
     "Java",
     "C++",
@@ -150,6 +150,9 @@ export const skillsData = [
     "Pandas",
     "NumPy",
     "Matplotlib",
+] as const;
+
+export const skillsData = [
     "Git",
     "Jira",
     "Postman",
@@ -159,8 +162,12 @@ export const skillsData = [
     "Unity",
     "Firebase",
     "ElasticSearch",
+] as const;
+
+export const toolsData = [
     "Machine Learning",
     "Artificial Intelligence",
+    "Secret Security Clearance",
     "Agile",
     "Scrum",
     "Software Engineering",
