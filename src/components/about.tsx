@@ -43,6 +43,10 @@ export default function About() {
                 <span className="font-medium">game theory.</span> I'm also
                 learning how to draw better.
             </p>
+            <p>
+                What do you think about <strong>my home made website?</strong>
+                Tell me with the Contact Me section!
+            </p>
         </motion.section>
     );
 }

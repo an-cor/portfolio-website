@@ -32,6 +32,15 @@ export default function Contact() {
             <SectionHeading>Contact me</SectionHeading>
 
             <p className="text-gray-700 -mt-6 dark:text-white/80">
+                Fill out the form below to contact me. Please, no spam.
+                I strive to respond to all legitimate inquiries,
+                but please be clear and concise in your message.
+                Whether you have a question about my work, a project collaboration,
+                or just want to connect, feel free to reach out.
+                I look forward to hearing from you!
+            </p>
+
+            <p className="text-gray-700 mt-4 dark:text-white/80">
                 Please contact me directly at{" "}
                 <a className="underline" href="mailto:angelcoronel15@gmail.com">
                     angelcoronel15@gmail.com

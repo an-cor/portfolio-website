@@ -32,13 +32,13 @@ export default function Intro() {
                         }}
                     >
                         <Image
-                            src="https://i.postimg.cc/1RYBPHqx/Screenshot-2025-01-26-at-7-17-14-PM.png"
+                            src="https://i.postimg.cc/zDxvdyvn/Screenshot-2025-01-26-at-7-06-09-PM.png"
                             alt="Angel portrait"
-                            width="192"
-                            height="192"
+                            width="384"
+                            height="384"
                             quality="95"
                             priority={true}
-                            className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+                            className="h-48 w-48 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
                         />
                     </motion.div>
 
@@ -67,7 +67,7 @@ export default function Intro() {
                 <span className="font-bold">full-stack engineer</span> with{" "}
                 <span className="font-bold">1 year</span> of experience. I enjoy
                 building <span className="italic">sites & apps</span>. My focus is
-                on further my technical skills to provide value to clients and employers.{" "}
+                to further my technical skills to provide value to clients and employers.{" "}
             </motion.h1>
 
             <motion.div
